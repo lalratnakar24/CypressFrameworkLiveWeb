@@ -27,7 +27,7 @@ Cypress.Commands.add("selectProduct", (productName) => {
 
 Cypress.Commands.add("LoginApi",()=> {
     cy.request("POST","https://rahulshettyacademy.com/api/ecom/auth/login",
-    {"userEmail":"rahulshetty@getMaxListeners.com","userPassword":"Iamking@00"}).
+    {"userEmail":"lal","userPassword":"lalal"}).
     then(function(response)
     {
         expect(response.status).to.eq(200)
